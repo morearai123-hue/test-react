@@ -11,6 +11,7 @@ function App() {
       <h2>This is react setup 1</h2>
       <h3>Very good setup</h3>
       <h4>Welcome</h4>
+      <p>Total Hours : 10 hrs.</p>
     </>
   )
 }
