@@ -40,3 +40,75 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Center everything on page */
+body {
+  margin: 0;
+  padding: 0;
+  background: #eef3f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.login-container {
+  width: 450px;
+  /* Increased width */
+  padding: 40px;
+  /* Increased inner padding */
+  background: #ffffff;
+  margin: 80px auto;
+  border-radius: 16px;
+  /* Smooth rounded edges */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Inputs & Select */
+.login-form input,
+.login-form select {
+  padding: 14px;
+  /* Larger input fields */
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.login-form input:focus,
+.login-form select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 4px rgba(74, 144, 226, 0.5);
+}
+
+button {
+  padding: 14px;
+  font-size: 18px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #357abd;
+  transform: translateY(-2px);
+}
+
+.login-container h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.login-container h4 {
+  margin-bottom: 25px;
+  font-size: 18px;
+  color: #666;
+}
