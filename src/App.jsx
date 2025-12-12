@@ -10,8 +10,7 @@ function App() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    console.log("Student Login Details:", { studentId, course, password });
-    alert("Login Successful (Demo)");
+    alert(`Login Successful (Demo)\nStudent Login Details:",Student ID:- ${studentId},\nCourse:- ${course},\nPassword:- ${password}`);
   };
 
   return (
